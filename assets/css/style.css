@@ -169,6 +169,34 @@ h3 {
     border-bottom: 10px solid var(--secondary-color);
 }
 
+.social-media {
+    background-color: rgb(34, 34, 34);
+    border-bottom: 20px double;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.social-media div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.social-media img {
+    width: 10vw;
+    height: 10vw;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+
+
 /* Media Queries Begin */
 @media screen and (max-width: 980px) {
 }
