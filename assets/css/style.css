@@ -195,9 +195,40 @@ h3 {
     border-radius: 40px;
 }
 
+.contact-me {
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 60px 120px;
+}
 
+.contact-me div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
 
-/* Media Queries Begin */
+.contact-me p {
+    font-size: 1.5vw;
+    text-align: left;
+    align-content: center;
+    padding: 40px 0px;
+}
+
+.contact-me address {
+    font-size: 1.5vw;
+    text-align: left;
+    align-content: center;
+}
+
+/* Media Queries --- didn't have enough time to figure out before due date, sorry! */
 @media screen and (max-width: 980px) {
 }
 
