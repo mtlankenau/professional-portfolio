@@ -1,2 +1,10 @@
-# professional-portfolio
-My professional portfolio.  This portfolio will be updated routinely to include new projects and will implement new coding skills as they are learned throughout my coding bootcamp.
+# My Professional Portfolio
+
+<img src="assets/images/readme-screenshot.jpg" width="580" height="380">
+
+## Background
+For one of our coding bootcamp's challenge assignments, we were tasked with creating our own professional portfolio completely from scratch!  The portfolio is designed to be updated as I learn new coding skills, as well as updated with links to new separate projects.
+
+## Live Product
+
+See the live URL of the deployed application here: https://mtlankenau.github.io/professional-portfolio/
