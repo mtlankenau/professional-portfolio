@@ -26,7 +26,6 @@ header {
     top: 0;
     background-image: url("../images/header-background.jpg");
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 80%;
@@ -35,7 +34,7 @@ header {
 
 header h1 {
     font-weight: bold;
-    font-size: 2.5vw;
+    font-size: 3.0vw;
     margin: 0;
 }
 header a {
@@ -69,36 +68,65 @@ header nav ul li a:hover {
     font-weight: bolder;
 }
 
-.section-title {
+.about-me {
     background-color: rgb(34, 34, 34);
+    border-bottom: 20px double;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.section-title h2 {
-    font-size: 48px;
+h2 {
+    font-size: 2.5vw;
     color: var(--secondary-color);
-    border-bottom: 15px dotted;
+    border-bottom: 0.8vw dotted;
     padding: 50px;
     text-align: center;
     margin: 0 auto 35px auto;
-    width: 30%;
+    width: 25%;
 }
-.section-title div {
+.about-me div {
     width: 100%;
     height: auto;
     padding: 80px;
     text-align: center;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
 }
-.section-title div img {
+.about-me div img {
     max-width: 50%;
     max-height: auto;
     object-fit: cover;
     vertical-align: bottom;
     border-radius: 50%;
 }
-.section-title p {
-    padding: 60px 80px;
-    font-size: 30px;
+.about-me p {
+    padding: 0px 80px;
+    font-size: 2.0vw;
     text-align: left;
     align-content: center;
+}
+
+.my-projects {
+    background-color: rgb(34, 34, 34);
+    border-bottom: 20px double;
+}
+.my-projects div {
+    width: 100%;
+    height: auto;
+    padding: 80px;
+    text-align: center;
+    display: flex;
+}
+
+/* Media Queries Begin */
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 575px) {
 }
