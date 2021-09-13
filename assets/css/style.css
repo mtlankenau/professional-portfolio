@@ -15,6 +15,22 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+h2 {
+    font-size: 2.5vw;
+    color: var(--secondary-color);
+    border-bottom: 0.8vw dotted;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 25%;
+}
+
+h3 {
+    font-size: 2.0vw;
+}
+
+/* Header Styles Begin */
+
 header {
     padding: 50px 35px;
     background-color: var(--tertiary-color);
@@ -68,6 +84,10 @@ header nav ul li a:hover {
     font-weight: bolder;
 }
 
+/* Header Styles End */
+
+/* About Me Styles Begin */
+
 .about-me {
     background-color: rgb(34, 34, 34);
     border-bottom: 20px double;
@@ -76,15 +96,6 @@ header nav ul li a:hover {
     flex-wrap: wrap;
 }
 
-h2 {
-    font-size: 2.5vw;
-    color: var(--secondary-color);
-    border-bottom: 0.8vw dotted;
-    padding: 50px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 25%;
-}
 .about-me div {
     width: 100%;
     height: auto;
@@ -95,6 +106,7 @@ h2 {
     align-items: center;
     flex-wrap: nowrap;
 }
+
 .about-me div img {
     max-width: 50%;
     max-height: auto;
@@ -102,12 +114,17 @@ h2 {
     vertical-align: bottom;
     border-radius: 50%;
 }
+
 .about-me p {
     padding: 0px 80px;
     font-size: 1.5vw;
     text-align: left;
     align-content: center;
 }
+
+/* About Me Styles End */
+
+/* My Projects Styles Begin */
 
 .my-projects {
     background-color: rgb(34, 34, 34);
@@ -117,9 +134,6 @@ h2 {
     flex-wrap: wrap;
 }
 
-h3 {
-    font-size: 2.0vw;
-}
 .my-projects div {
     width: 100%;
     height: auto;
@@ -169,6 +183,10 @@ h3 {
     border-bottom: 10px solid var(--secondary-color);
 }
 
+/* My Projects Styles End */
+
+/* Social Media Styles Begin */
+
 .social-media {
     background-color: rgb(34, 34, 34);
     border-bottom: 20px double;
@@ -194,6 +212,10 @@ h3 {
     padding: 10px 20px;
     border-radius: 40px;
 }
+
+/* Social Media Styles End */
+
+/* Contact Me Styles Begin */
 
 .contact-me {
     background-color: rgb(34, 34, 34);
@@ -227,6 +249,8 @@ h3 {
     text-align: left;
     align-content: center;
 }
+
+/* Contact Me Styles End */
 
 /* Media Queries --- didn't have enough time to figure out before due date, sorry! */
 @media screen and (max-width: 980px) {
