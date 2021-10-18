@@ -179,7 +179,18 @@ header nav ul li a:hover {
     padding: 100px 140px;
 }
 
+.music-finder a {
+    background-image: url("../images/music-finder-screenshot.JPG");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 200px;
+}
+
 .bootcamp-projects {
+    border-bottom: 10px solid var(--secondary-color);
+}
+
+.personal-projects {
     border-bottom: 10px solid var(--secondary-color);
 }
 
