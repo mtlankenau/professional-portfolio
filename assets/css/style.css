@@ -187,7 +187,7 @@ header nav ul li a:hover {
 }
 
 .pokegen a {
-    background-image: url("../images/pokegen-screenshot.JPG");
+    background-image: url("../images/pokegen-screenshot.jpg");
     background-size: cover;
     background-position: center;
     padding: 100px 200px;
