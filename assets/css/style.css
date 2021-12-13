@@ -186,6 +186,13 @@ header nav ul li a:hover {
     padding: 100px 200px;
 }
 
+.pokegen a {
+    background-image: url("../images/pokegen-screenshot.JPG");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 200px;
+}
+
 .bootcamp-projects {
     border-bottom: 10px solid var(--secondary-color);
 }
